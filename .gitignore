@@ -32,6 +32,7 @@ wheels/
 
 # ==================== 虚拟环境 ====================
 venv/
+.myvenv/
 ENV/
 env/
 .venv/
@@ -39,13 +40,18 @@ env/
 env.bak/
 venv.bak/
 .conda/
-
+.idea/inspectionProfiles/Project_Default.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/modules.xml
+.idea/my-learn-python-ai.iml
+.idea/vcs.xml
 # ==================== IDE ====================
 # VSCode
 .vscode/
 *.code-workspace
 
 # PyCharm
+.idea/
 .idea/
 *.iml
 *.ipr
